@@ -531,6 +531,7 @@ video {
 }
 
 html{
+  scroll-behavior: smooth;
   box-sizing: border-box;
   font-size: 15px;
   background:linear-gradient(180deg,   white , #3e1a11);
