@@ -7,6 +7,8 @@
 2. Allow adding a border to an element by just adding a border-width. (https://github.com/tailwindcss/tailwindcss/pull/116)
 */
 
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&display=swap');
+
 *,
 ::before,
 ::after {
@@ -552,16 +554,27 @@ main{
   top: 100vh;
 }
 
+#header-text{
+  position: relative;
+  top: 40%;
+  left: 10%;
+  width: max-content;
+
+}
 #title{
-  font-family: "Trebuchet MS";
-  font-size: 3em;
-  font-style: bold;
-  margin: 5px auto;
-  padding: 1em 0;
+  font-family: 'Dancing Script', cursive;
+  font-size: 8vw;
+  color: whitesmoke;
+  width: max-content;
+  z-index: 2;
 }
 
 header p{
-  margin: -40px 0 40px 0;
+  color: rgb(184, 184, 184);
+  text-align: center;
+  margin-top: -15px;
+  font-size: 2vh;
+  z-index: 2;
 }
 
 img{
