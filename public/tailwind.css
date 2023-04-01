@@ -535,18 +535,21 @@ html{
   box-sizing: border-box;
   font-size: 15px;
   background:linear-gradient(180deg,   white , #3e1a11);
+  overflow-x: hidden;
 }
 
 body{
   text-align: center;
-  margin: 0 auto;
   background: rgba(235,236,237, .5);
-  width: 95vw;
+  width: 100vw;
+  border: none;
 }
 
 main{
   font-family: Sans-serif;
   text-align:center;
+  position: relative;
+  top: 100vh;
 }
 
 #title{
@@ -581,11 +584,15 @@ img{
 }
 header{
   height: 100vh;
-  margin: 0;
-  padding: 0;
-  background: url(https://scontent.fmnl17-1.fna.fbcdn.net/v/t39.30808-6/335507659_601974218648226_5769682927848341270_n.jpg?_nc_cat=100&ccb=1-7&_nc_sid=730e14&_nc_eui2=AeGo_i5ypKzX20sml0J3vIky1KIcc07KMIPUohxzTsowg337OEwxjoq706jkLI4FHxXnjL4rCvDgUsvhCtl67U_a&_nc_ohc=MfoL4D989XsAX99Zkh9&_nc_ht=scontent.fmnl17-1.fna&oh=00_AfDiRHb_vwYdN3jrzRuFNGdpBdSc9E0OHT-xGtMdZgcAGA&oe=64287528);
+  width: 100vw;
+  background: linear-gradient(rgba(255, 255, 255, 5%), 
+  rgba(0, 0, 0, 80%)),
+  url(https://scontent.fmnl17-1.fna.fbcdn.net/v/t39.30808-6/335507659_601974218648226_5769682927848341270_n.jpg?_nc_cat=100&ccb=1-7&_nc_sid=730e14&_nc_eui2=AeGo_i5ypKzX20sml0J3vIky1KIcc07KMIPUohxzTsowg337OEwxjoq706jkLI4FHxXnjL4rCvDgUsvhCtl67U_a&_nc_ohc=MfoL4D989XsAX99Zkh9&_nc_ht=scontent.fmnl17-1.fna&oh=00_AfDiRHb_vwYdN3jrzRuFNGdpBdSc9E0OHT-xGtMdZgcAGA&oe=64287528);
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size:cover;
+  position: absolute;
+  top: 0;
+
 }
 #img-div{
   justify-items: center;
