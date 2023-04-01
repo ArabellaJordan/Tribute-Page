@@ -542,9 +542,11 @@ html{
 
 body{
   text-align: center;
-  background: rgba(235,236,237, .5);
   width: 100vw;
-  border: none;
+  height: max-content;
+  background-color: rgba(235,236,237, .5);
+  border: 2px solid pink;
+
 }
 
 main{
@@ -619,10 +621,12 @@ header{
 
 #tribute-info{
   background-color: rgba(255, 255, 255, 30%);
-  margin: 4em auto;
+  margin: 0 auto;
   padding: 2em 4em;
   box-shadow: 0 5px 10px 1px rgba(160, 160, 160, 30%);
   border: none;
+  height: 100vh;
+  z-index: 1;
 }
 
 span{
@@ -638,7 +642,9 @@ span{
   color: rgb(150, 130, 100);
 }
 
-.albums{
+#albums{
+  min-height: 100vh;
+  height: max-content;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
@@ -650,7 +656,7 @@ span{
   padding: 20px 10px;
 }
 
-.albums .album{
+#albums .album{
   display: block;
   font-family: "Trebuchet MS";
   font-size: 3em;
@@ -660,7 +666,7 @@ span{
   width: 100%;
 }
 
-.albums img{
+#albums img{
   width: 100%;
   max-width: 350px;
   height: 350px;
