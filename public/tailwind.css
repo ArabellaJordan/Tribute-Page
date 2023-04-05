@@ -669,6 +669,7 @@ span{
   max-width: 1800px;
   margin: 0 auto;
   padding: 20px 10px;
+  background-color: rgb(167,152,150);
 }
 
 #albums .album{
