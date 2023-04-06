@@ -567,6 +567,10 @@ main{
   height: 10vh;
   min-height: 50px;
   margin-left: 15px;
+  opacity: 50%;
+}
+#navigation #logo:hover{
+  opacity: 100%;
 }
 
 #header{
