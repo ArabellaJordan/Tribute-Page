@@ -555,7 +555,23 @@ main{
   position: relative;
   top: 100vh;
 }
+#navigation{
+  z-index: 999;
+  position: fixed;
+  width: 100vw;
+  height: 10vh;
+  min-height: 50px;
+}
 
+#navigation #logo{
+  height: 10vh;
+  min-height: 50px;
+  margin-left: 15px;
+}
+
+#header{
+  height: 100vh;
+}
 #header-text{
   position: relative;
   top: 40%;
@@ -602,7 +618,7 @@ header{
   width: 100vw;
   background: linear-gradient(rgba(255, 255, 255, 5%), 
   rgba(0, 0, 0, 80%)),
-  url(https://scontent.fmnl30-2.fna.fbcdn.net/v/t39.30808-6/335507659_601974218648226_5769682927848341270_n.jpg?_nc_cat=100&ccb=1-7&_nc_sid=730e14&_nc_eui2=AeGo_i5ypKzX20sml0J3vIky1KIcc07KMIPUohxzTsowg337OEwxjoq706jkLI4FHxXnjL4rCvDgUsvhCtl67U_a&_nc_ohc=scpZw6KWUKsAX-Lbe7L&_nc_ht=scontent.fmnl30-2.fna&oh=00_AfARKrQlzAXTzAvoxiTHq6QDyhcOhn8L-CZKiLjFDLSjZg&oe=642E63E8);
+  url(Taylor-eras.jpg);
   background-repeat: no-repeat;
   background-size:cover;
   position: absolute;
