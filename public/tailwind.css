@@ -697,7 +697,6 @@ span{
   margin: 0 auto;
   padding: 20px 10px;
   background-color: rgb(167,152,150);
-  border: 1px solid black;
 }
 
 #albums .album{
@@ -708,29 +707,38 @@ span{
   margin: 5px auto;
   padding: 0 0 0.5em 0;
   width: 100%;
-  border: 1px solid black;
 }
 
-#albums .album-block{
+.album-block{
   width: 350px;
   height: 350px;
-  border: 1px solid black;
+  overflow: hidden;
+  border-radius: 5px;
 }
 .album-block::after{
   content: "";
   width: 350px;
 }
+.album-block p{
+  color: black;
+  z-index: 999;
+  border: 1px solid black;
+}
 
 .album-block img{
   width: 100%;
-  max-width: 350px;
-  height: 350px;
+  height: 100%;
   transition: all .5s;
-  border-radius: 5px;
 }
 
 
 .album-block:hover img, 
 .album-block:focus img{
-  transform: scale(1.1);
+  transform: scale(1.2);
+}
+.source{
+  padding: 30px;
+}
+.source a{
+  color: rgb(99, 72, 72);
 }
