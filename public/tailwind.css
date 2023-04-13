@@ -545,8 +545,6 @@ body{
   width: 100vw;
   height: max-content;
   background-color: rgba(235,236,237, .5);
-  border: 2px solid pink;
-
 }
 
 main{
@@ -691,22 +689,22 @@ span{
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: center;
+  align-content: start;
   align-items: center;
-  gap: 15px;
-  max-width: 1800px;
-  margin: 0 auto;
-  padding: 20px 10px;
-  background-color: rgb(167,152,150);
+  gap: 25px;
+  padding: 50px 100px;
+  background: linear-gradient(rgb(28, 30, 35), rgb(17,18,22));
 }
 
 #albums .album{
-  display: block;
   font-family: "Trebuchet MS";
-  font-size: 3em;
+  color: whitesmoke;
+  font-size: 5em;
   font-style: bold;
-  margin: 5px auto;
-  padding: 0 0 0.5em 0;
-  width: 100%;
+  position: absolute;
+  bottom: -20px;
+  right: 0;
+  transition: all 0.5s;
 }
 
 .album-block{
@@ -715,6 +713,7 @@ span{
   overflow: hidden;
   border-radius: 5px;
   position: relative;
+  box-shadow: 0px 5px 15px 5px rgb(0, 0, 0);
 }
 .album-block::after{
   content: "";
@@ -729,7 +728,7 @@ span{
 }
 .album-block p{
   position: absolute;
-  color: black;
+  color: whitesmoke;
   font-size: 30px;
   width: 100%;
   height: max-content;
