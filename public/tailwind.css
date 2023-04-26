@@ -693,6 +693,7 @@ span{
   text-align: left;
   max-width: 100%;
   color: rgb(113, 92, 60);
+  border: 1px solid pink;
 }
 
 #albums{
