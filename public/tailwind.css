@@ -639,9 +639,12 @@ header ul{
 }
 header ul li{
   text-align: center;
+  margin: 0 20px;
   width: 50%;
   font-style: italic;
   color: rgb(188, 177, 177);
+  border: 1px solid rgba(250, 247, 247, 0.381);
+  border-radius: 25px;
   transition: all .5s;
   
 }
@@ -665,7 +668,6 @@ header ul li:hover{
   padding: 2em 4em;
   box-shadow: 0 5px 10px 1px rgba(160, 160, 160, 30%);
   border: none;
-  height: 100vh;
   z-index: 1;
   border: 1px solid pink;
 }
@@ -693,7 +695,6 @@ span{
   text-align: left;
   max-width: 100%;
   color: rgb(113, 92, 60);
-  border: 1px solid pink;
 }
 
 #albums{
@@ -701,10 +702,10 @@ span{
   height: max-content;
   display: flex;
   flex-direction: row;
-  flex-wrap: wrap;
   justify-content: center;
-  align-content: start;
+  flex-wrap: wrap;
   align-items: center;
+  align-content: start;
   gap: 25px;
   padding: 50px 100px;
   background: linear-gradient(rgb(28, 30, 35), rgb(17,18,22));
